@@ -1,6 +1,5 @@
 # Követelmény Specifikáció
 
-
 # Tartalom
 
 * Áttekintés
@@ -24,6 +23,15 @@
 
 ## Vágyálom rendszer
 
+Memóriajáték
+    Bejelentkezés után a user kiválaszthatja, hogy memóriajátékot szeretne játszani.
+    A játéknak van egy kezdőoldala, ahol játékot kiválaszthatja a következőket:
+        milyen típusú memóriajátékot szeretne játszani - képes vagy szöveges
+        milyen nehézségű legyen a játék (hány kártya jelenjen meg)
+        milyen témában szeretne játszani
+    Játék indítása gomb megnyomását követően elindul a játék.
+    Ha minden párt megtalál a játékos, a játék véget ér, egy felugró ablakban "Nyertél!" felirat jelenik meg 
+    
 
 
 
