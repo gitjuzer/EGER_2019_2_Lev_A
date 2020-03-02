@@ -23,7 +23,17 @@
 
 ## Jelenlegi helyzet
 
-
+	Somogyi TOMI ???
+	A megrendelő szeretné kibővíteni az általa nyújtott oktatási szolgáltatások elérhetőségét, hogy versenytársaihoz képest így jusson piaci előnyökhöz.
+    Egy új rendszer előállítását rendelte meg, amely interneten keresztül modern megoldásokat használva működik.
+    A rendszer segítséget nyújt azok számára, akik valamilyen módon szeretnék tudásukat elmélyíteni egy adott területen, vagy új
+    ismereteket szeretnének szerezni.
+    A XXI. század megköveteli, hogy mindez hálózaton is elérhető legyen, ennek megfelelően weboldalt is a megrendelő rendelkezésére kell bocsátani.
+    Ez a fajta tanulás megtetszett a diákoknak, és a tanárok is felismerték, hogy egy játékos oktatóprogrammal eredményesebbé, szórakoztatóbbá tehetik az oktatást,
+    mint a hagyományos, táblára írásos módszerrel.
+    Ezért elkezdtek keresni számukra megfelelő, létező programokat. Találtak többet is (pl.:Kahoot), viszont ezek nem tetszettek nekik.
+    Egy olyan programra lenne szükségük, amellyel a diákok önnálóan tudnak feladatot megoldani.
+    Ezen okokból kifolyólag megkértek minket, hogy csináljuk meg nekik a vágyott weboldalt, ami sokkal könnyebbé teheti számukra az oktatást.
 
 
 ## Vágyálom rendszer
