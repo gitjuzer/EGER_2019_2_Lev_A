@@ -27,10 +27,11 @@
 
 
 ## Vágyálom rendszer
-
-
-
-
+	A projekt célja egy olyan rendszer, ami játékos tanulás, gyakorlás lehetőségét biztosítja a fiatalok számára. A rendszer webes platformon lesz elérhető.
+	Regisztrációt követően több típusú feladat közül választhat a felhasználó. Látványos, színes felülettel rendelkezik a program, hogy felkeltse a felhasználók figyelmét. 
+	A szórakoztatóbb tanulás érdekében játékos elemeket tartalmaznak az egyes feladatok.
+	A rendszer lehetőséget nyújt a felhasználók teljesítményének tárolására (toplista), ennek segítségével másokkal is összemérhetik a tudásukat.
+	A rendszerben szükséges egy pontozási rendszer, amely a helyesen megválaszolt feladványok után adja a felhasználónak a pontokat.
 ## Jelenlegi üzleti folyamatok modellje
 
 
