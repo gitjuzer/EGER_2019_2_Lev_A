@@ -66,8 +66,16 @@
 
 ## Igényelt üzleti folyamatok modellje
 
-
-
+    A felhasználó a fő oldalon regisztrál vagy ha már korábban megtette, bejelentkezik felhasználónév és jelszó segítségével,
+    ezt ingyenesen és bárhonnan megteheti.
+    Bejelentkezést követően szerepkörtől függően (oktató, diák) különböző funkciókhoz fér hozzá a felhasználó.
+    Oktató szerepkörrel új feladatok állíthatók össze illetve a meglévők szerkeszthetőek. Választható feladattípusok:
+    akasztófa, memóriajáték, kvíz feladat. 
+    A témakörökre megkötés nincs.
+    Diák szerepkörrel csak feladatmegoldásra van lehetőség az oldalon szereplő feladattípusok és témakörök szerint. 
+    A feladatmegoldás során automatikus a visszajelzés a megoldás helyességéről, így önállóan használható valamint
+    pontozási rendszer segítségével nyomon követhető a teljesítmény.
+    
 
 ## Követelmény lista
 
