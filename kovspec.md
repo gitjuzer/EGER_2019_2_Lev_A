@@ -59,3 +59,12 @@
 
 
 ## Fogalomszótár
+
+bug: fejlesztési hiba ami által a program nem a várt eredményt hozza
+main menu: A fő menü, amely a weboldal/program indulásakor megjelenik
+gameboard: Játék közben, a különböző elemeket tartalmazó felület
+backend: A kiszolgáló, ahonnan az alkalmazást el lehet érni
+frontend:  egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása
+web-service: különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások interneten keresztül történő adatcseréjére asznált vebszolgáltatások.
+multiplatform: több környezetben futtatható alkalmazás
+final menu: A játék végén megjelenő panel, amely a statisztikát mutatja
