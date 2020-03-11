@@ -55,6 +55,20 @@
 
 ## Követelmény lista
 
+Modul | ID | Név | v. | Kifejtés
+------------ | ------------- | ------------- | ------------- | -------------
+Jogosultság | K1 | Bejelentkezési felület | 1.0 | A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
+Jogosultság | K2 | Regisztráció | 1.0 | A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát. A jelszó tárolása kódolva történik az adatbázisban. Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményeknek, akkor a rendszer értesíti erről a felhasználót.
+Jogosultság	| K3 | Jogosultsági szintek	| 1.0 | <ul><li>Admin : Rendszerhozzáférés, feladatok feltöltése, felhasználók / feladatok modósítása.</li><li> Tanár : Feladatok feltöltése / létrehozása.</li><li>Diák : Feladatok kitöltése / elvégzése.</li></ul>
+Modifikáció | K4 | Felhasználó módosítása | 1.0 | A felhasználó módosítani tudja saját Felhasználónevét. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése.
+Modifikáció | K5 | Jelszó módosítása | 1.0 | A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
+Modifikáció	| K6 | Elfelejtett  jelszó | 1.0 | Ha a felhasználó elfejeltette a jelszavát akkor ezzel a megadott email címére kapni fog egy utasítást hogyan tud újat kapni.
+Feladattípus | K7 | Kérdés-felelet | 1.0 | Több kérdésből áll, a feladat a helyes válasz kiválasztása több lehetőség közül. A felhasználó az eltelt idő függvényében pontot kap.
+Feladattípus | K8 | Memóriajáték | 1.0 |	
+Feladattípus | K9 | Akasztófa | 1.0 |	
+Felület | K10 | Bejelentkezés | 1.0	| A felhasználók itt tudnak bejeletkezni a rendszerbe, probléma esetén jelszót, emailt változtatni.
+Felület | K11 | Teszt létrehozás | 1.0 | Az admin, illetve tanári jogosultságú felhasználóknak elérehtő a teszt létrehozás, amit később kiadhat diákok számára.
+Felület | K12 | Admin felület | 1.0 | Felület az admin fiókkal rendelkező felhasználó számára.
 
 
 
