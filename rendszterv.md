@@ -2,34 +2,141 @@
 
 # Tartalom
 
-* Konceptuális és Nagyvonalú rendszerterv
-* Részletes rendszerterv
-* Rendszer célja
-* Projekt terv
-* Üzleti folyamatok modellje
-* Követelmények
-* Funkcionális terv
-* Fizikai környezet
-* Absztrakt domain modell
-* Architekturális terv
-* Adatbázis terv
-* Implementációs terv
-* Tesztterv
-* Telepítési terv
-* Karbantartási terv
+1. Konceptuális rendszerterv
+2. Részletes rendszerterv
+    * Rendszer célja
+    * Projekt terv
+    * Üzleti folyamatok modellje
+    * Követelmények
+    * Funkcionális terv
+    * Fizikai környezet
+    * Absztrakt domain modell
+    * Architekturális terv
+    * Adatbázis terv
+    * Implementációs terv
+    * Tesztterv
+    * Telepítési terv
+    * Karbantartási terv
 
 
-## Konceptuális és Nagyvonalú rendszerterv
+1. Konceptuális rendszerterv
 
+A rendszer célja, hogy a felhasználók egy egyszerű és játékos környezetben tudjanak tanulni. Célunk, hogy egy olyan programot létrehozzunk, amelyben a felhasználok, különböző szerepkörökben tudnak a rendszerrel interaktiválni. Fontos, hogy a rendszer használhatósága egyszerű legyen. Minden felhasználónak érthető legyen, hogy mit és hogyan lehet a rendszerben csinálni.
 
+A felhasználók különböző szerepközökben, különböző dolgokat látnak és csinálhatnak. A szerepköröknek más-más céljuk és rendszeren belüli dolgokkal interaktiválhatnak. Minden szerepkörben elérhető lesz, egy Órarend, egy Elektronikus napló, és egy Üzenet felület, de mindegyikhez a különböző szerepkörök máshogy viszonyulnak. A Diákoknak és Tanároknak elérhető lesz egy Kvíz és Teszt felület, a Tanár itt tud létrehozni feladatokat a Diákoknak, a Diák időre töltheti ki a feladatokat amelyekre pontokat kap helyes válasz esetén, és a végén egy Toplistában láthatja eredményét. 
 
+A programunk azért készül, hogy segítse a tanulást az iskolákban, a Diákoknak és a Tanároknok számára egyaránt. A felhasználók szívesebben dolgoznak egy számítógépes felületen, ahol mindent láthatnak (Elektronikus napló, Órarend, Üzenetek, stb.), és mindent elérhetnek könnyen és gyorsan. A felhasználók könnyen tudják tartani a kapcsolatot egymás között, és akármilyen hibát azonnal tudnak jelezni.
 
+A programunk megvalósításához különböző eszközöket kell használnunk. Szükséges a GitHub Issue kezelője, hogy nyomon tudjuk követni, ki mit végez. Kell a GitHub, hogy az összes fájlunkat, egyhelyen és gyorsan elérhessük, és megkönnyitjük vele a dokumentumok és a programunk készítését több felhasználó esetén.
+Szükséges egy Adatbázis-rendszer kezelő program, amelyben eltudunk készíteni egy adatbázist és annak a tervét.
+Kell egy program amiben a programunkat készítjük, erre egy Androidos alkalmazás elkészítésére alkalmas programot választunk. Valamilyen rendszer- vagy képernyőtervező program / alkalmazás szükséges, hogy képeket képernyőterveket készíthessünk.
 
+A rendszert egy előző féléves hasonló rendszerből (mondhatni prototípusból) és a saját tudásunkból készítjük. Biztosan mindenki aki a projekten dolgozik merít valamilyen inspirációt valahonnan, legyen az egy másik hasonló rendszer, egy teljesen más dologra használható program aminek az alapjai hasonlók, stb.. Minden dokumentumot, tervet, programot, képet és egyebet mi készítünk, ezeket az elöbb felsorolt eszközök segítségével tudjuk megvalósítani.
 
+Megfeleltetés:
 
+* Mit
+* Hogyan
+* Miből
+* Miért
+    
+Egy bejentkezési felület, ahol a felhasználók beléphetnek a rendszerbe.
+A felhasználó az email címe és a jelszava segítségével bejelentkezhet.
+Egy felhasználó név és egy jelszó segítségével, a jelszónak tartalmaznia kell legalább 6 karaktert, 1 nagybetűt és 1 számot.
+A felhasználóknak tudnia kell bejelentkezni a rendszerbe, hogy elérhessék annak többi részét.
+Minden felhasználónak, van egy felhasználóneve és jelszava amivel beléphet a rendszerbe.
+A jelszónak fontos a védelme, azért kell hozzá ennyi lépés.
 
+Egy regisztrációs felület, ahol a felhasználók szerepköröket választhatnak.
+Egy regisztrációs gombra kattintva, a felhasználó választhat felhasználó nevet és jelszavat amivel felregisztrálhat.
+Egy regisztráció gomb segítségével, amely jól látható és a belépés gomb mellett található.
+A felhasználóknak muszáj regisztrálniuk, hogy betudjanak jelentkezni a programba.
+Regisztráláskor a felhasználó szerepköröket tud választani, amelyek fontosak
+ahoz hogy, jogosultsági szinteket adjunk.
 
-## Részletes rendszerterv
+Egy "Teszt készítés", mely új tesztek létrehozására szolgál.
+A "Teszt" gombra kattintva válik elérhetővé, Tanár jogosultsággal rendelkezőknek
+Teszt menübe navigálva, az almenük között található meg a Tanárok számára.
+A tanárok számára biztosítani kell egy könnyen kezelhető felületet, mely a tesztek létrehozására szolgál. 
+A teszt létrehozása után, egyből elérhetővé válik és ki lehet tölteni a diákoknak.
+
+Jogosutsági szinteket, ahol megkülönböztetjük a szerepköröket.
+A különböző szerepkörökhöz, különböző jogosultsági szinteket társítunk.
+Szerepkörökből jogosultsági szinteket.
+Regisztrálásnál a felhasználó szerepkört választ. Minden szerepkörnek különböző
+elérései vannak, így mást látnak. Fontos, hogy ne minden szerepkör lássa ugyan azokat a dolgokat.
+
+Felhasználó név módosítása.
+Egy bejentkezési adatok modosítása gombbal, elérhető egy felület, ahol felhasználó nevet és jelszavat lehet modosítsani.
+Egy gomb segítségével elérhető egy felület ahol a felhasználó nevet lehet módosítani.
+Ha a felhasználó nincs megelégedve azonosítójával, vagy esetleg a felhasználó neve
+helytelen, gúnyos, sértő, stb. Akkor a felhasználó vagy nagyobb jogosultsággal lévők
+itt tudják megváltoztatni.
+
+Jelszó módosítása.
+Egy bejentkezési adatok modosítása gombbal, elérhető egy felület, ahol felhasználó nevet és jelszavat lehet modosítsani.
+Egy gomb segítségével elérhető egy felület ahol a jelszavat lehet módosítani.
+Ha például, egy Tanár vagy Admin készít egy felhasználónak azonosítót, akkor
+egy gyenge jelszavat adnak meg. A felhasználó itt tudja megváltoztatni jelszavát,
+ha nem elégedett vele.	
+
+Elfelejtett felhasználó név, jelszó módosítása.
+Egy külön "Elfelejtett bejelentkezési azonosítók" gomb segítségével, ahol elérhető egy külön felület.
+Egy gomb segítségével, ahonnan elérhető egy felület, ahol a felhasználó elfelejtett azonosítóit tudja módosítani.
+Meglehet, hogy egy felhasználó szimplán elfejeltette a felhasználó nevét vagy jelszavát,
+de az is lehet, hogy a felhasználó már nagyon régen regisztrált, vagy nem használta a
+rendszert, így nem tudja már milyen felhasználó nevet, vagy jelszavat használt.
+
+Egy "Főmenü" felület az összes felhasználónak.
+A bejelentkezés után ez a felület jelenjen meg az összes szerepkör számára.
+Egy külön felület létrehozásával, ahonnan elérhető az összes további felület, az egyes szerepkörök mást láthatnak itt.
+Szükséges létrehozni egy ilyen felületet, hogy minden egy helyen megtalálható legyen.
+Itt lesz található a Felhasználó név és Jelszó módosítása, Tananyag, Feladat megoldó felület,
+az Üzenet felület, az elektronikus napló felület, az Órarend felület, és az Adminok
+számára, az Admin felület.
+
+Egy Tananyag felület a Diák és Tanár számára.
+A főmenün belül legyen elérhető egy Tananyag felület a Diák és Tanár szerepkör számára.
+Egy külön gomb megnyomásával a Főmeün elérhető a felület, ahol a felhasználók láthatják a Tananyagot
+A Diákok és Tanárok számára ez a felület elengedhetetlen. A Diákok láthatják a tanárok által
+közzétett tananyagokat a különböző óráikhoz, míg a Tanárok ide tudják a tananyagot feltölteni.
+
+Egy "Feladatok" felület, ahol elérhető a Kvíz és Teszt típusok.
+A főmenün belül egy gombra kattintva elérhető a "Feladatok" felület, ahol feladattípusokat lehet elvégezni.
+Egy külön felületet hozunk létre, amely a Főmenün belül lesz elérhető, ide csak a Diák és Tanár tud belépni.
+Itt lesznek elérhetők különböző feladat típusok amelyeket a Diák tud elvégezni eredményekért,
+amelyek lehetnek érdemjegyek is. A Tanár itt tudja ezeket a feladattípusokat létrehozni a Diákok számára.
+A Szülő szerepkör ide nem léphet be.
+
+Egy "Kvíz" formájában lévő feladattípus.
+A főmenüben elérhető "Feladatok" menün belül elérhető "Kvíz" gombra kattintva elérhető.
+Jogosultsági szintek, gombok, és a Tanár szerepkör összességével lehet létrehozni egy Kvízt.
+A Diák és Tanár szerepkörnek elérhető egy Kvíz felület, ahol feladatokat kell megoldani időre.
+A Tanár tudja létrehozni ezeket a kvízeket, a Diák pedig kitölteni.
+A Diák pontotokat kap a kvíz megoldásáért, és egy Toplistában láthatja eredményét.
+
+Egy "Teszt" formájában lévő feladatípus.
+A főmenüben elérhető "Feladatok" menün belül elérhető "Teszt" gombra kattintva elérhető.
+Jogosultsági szintek, gombok, és a Tanár szerepkör összességével lehet létrehozni egy Tesztet
+A Diák és Tanár szerepkörnek elérhető egy Teszt felület, ahol feladatokat kell megoldani időre.
+A Tanár tudja létrehozni ezeket a teszteket, a Diák pedig kitölteni.
+A Diák pontotokat kap a tesztek megoldásáért, a pontok és az hátra maradt idő alapján érdemjegyet kaphat.
+
+Egy "Toplista", amely a Kvíz / Teszt felület után jelenik meg.
+A kvíz, és a Teszt után lehet megjeleníteni, hogyha azt a Tanár engedélyzi.
+A Tanár szerepkör egy külön beállítással tudja engedélyezni, hogy a Toplista megjelennyen-e.
+A Diákok láthatják eredményeiket egy Toplistában, hogy a Tanár engedélyezi azt.
+Itt láthatják pontszámaikat, mennyi idő alatt teljesítette a kvízt / tesztet, érdemjegyüket, és
+hogy milyen pozícióban vannak.
+
+A felhasználóknak nyomon kell tudniuk követni teljesítményeiket. Itt láthatóak a
+Diák érdemjegyei, rovásai, dicséretei. A Tanár itt tudja ezeket adni egy Diáknak, a Szülő pedig láthatja a Diákja eredményeit.
+
+Egy "Admin" felület, az Admin szerepkörben, vagy jogosultsággal lévőknek.
+Egy külön felület a Főmenün belül, ahol elérhető egy gomb megnyomásával.
+Egy gomb megnyomásával a főmenün, az Admin-nok elérhetnek egy, a rendszer szintte teljes működését képest vezérelni lévő felületet. Az Admin szerepkörben lévők, illetve Admin jogosultsággal lévőknek fontos, hogy elérhessenek egy ilyen felület. Felhasználók adatait, jelszavait, eredményeit itt tudják módosítnai, valamint egyéb triviális, vagy nagyobb dolgokat is.
+	
+# Részletes rendszerterv
 
 
 
