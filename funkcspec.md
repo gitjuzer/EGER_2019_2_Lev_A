@@ -1,6 +1,7 @@
 # Funkcionális Specifikáció
 
 # Tartalom
+
 * Áttekintés
 * Jelenlegi helyzet
 * Terjedelem
@@ -13,6 +14,12 @@
 * Forgatókönyv
 * Fogalomszótár
 
+## Áttekintés
+
+
+
+
+
 ## Jelenlegi helyzet
 
     A megrendelő szeretné kibővíteni az általa nyújtott oktatási szolgáltatások elérhetőségét, hogy versenytársaihoz képest így jusson piaci előnyökhöz.
@@ -24,3 +31,62 @@
     Ezért elkezdtek keresni számukra megfelelő, létező programokat. Találtak többet is (pl.:Kahoot), viszont ezek nem tetszettek nekik.
     Egy olyan programra lenne szükségük, amellyel a diákok önnálóan tudnak feladatot megoldani, és a többi játékos pontszámához képest tudják viszonyítani magukat.
     Ezen okokból kifolyólag megkértek minket, hogy csináljuk meg nekik a vágyott alkalmazást, ami sokkal könnyebbé teheti számukra az oktatást.
+
+
+
+
+## Terjedelem
+
+
+
+
+
+## Jelenlegi folyamatok modellje
+
+
+
+
+
+## Igényelt folyamatok modellje
+
+
+
+
+
+## Követelmény lista
+
+
+
+
+
+
+## Képernyőtervek
+
+
+
+
+
+## Adatmodell
+
+
+
+
+
+
+
+## Használati esetek
+
+
+
+
+
+
+
+## Forgatókönyv
+
+
+
+
+
+
+## Fogalomszótár
