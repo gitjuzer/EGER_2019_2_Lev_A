@@ -37,8 +37,9 @@
 
 ## Terjedelem
 
-
-
+    Célunk egy olyan, a fiatalok tanulását segítő rendszer létrehozása, amely a modern technológiai eszközök (számítógép, tablet, mobiltelefon) segítségével az iskolai tananyag elsajátítására és a diákok tudásának felmérésére törekszik. A rendszer ezt játékos feladatokkal igyeszik megvalósítani.
+    Cél, hogy a felhasználói felület könnyen kezelhető legyen az informatikában kevésbé jártas emberek, például az idősebb tanárok számára is, hogy ők is megkedveljék és nyitottak legyenek az újítások felé. Ezáltal a diákok tudásának ellenőrzése gyorsabban, kevesebb energia ráfordítással történne. A kitöltendő feladatok elkészítése és feltöltése a rendszerbe a tanárok feladata, ők felelősek azért, hogy tanítványaik a tudásuknak megfelelő nehézségű feladatokkal találkozzanak.
+    Nem célja a rendszernek, hogy átvegye a tanár szerepét, megfosztva őt ettől és ezzel kizárva őt a tanulási folyamatból. Valamint az sem cél, hogy a diákok eszközöket kapjanak a puskázáshoz.
 
 
 ## Jelenlegi folyamatok modellje
