@@ -19,7 +19,7 @@
     * Karbantartási terv
 
 
-1. Konceptuális rendszerterv
+# Konceptuális rendszerterv
 
 A rendszer célja, hogy a felhasználók egy egyszerű és játékos környezetben tudjanak tanulni. Célunk, hogy egy olyan programot létrehozzunk, amelyben a felhasználok, különböző szerepkörökben tudnak a rendszerrel interaktiválni. Fontos, hogy a rendszer használhatósága egyszerű legyen. Minden felhasználónak érthető legyen, hogy mit és hogyan lehet a rendszerben csinálni.
 
@@ -138,22 +138,25 @@ Egy gomb megnyomásával a főmenün, az Admin-nok elérhetnek egy, a rendszer s
 	
 # Részletes rendszerterv
 
-
-
-
-
-
-
-
-
 ## Rendszer célja
 
+A rendszer általános célja, hogy segítse a diákokat a tanulásban és az elsajátítandó tananyag könnyebb feldolgozásában.
 
+Ehhez a diákok játékos formában oldhatnak meg különböző témakörökben feladatokat, hogy mélyítsék tudásukat, melyről 
+tesztfeladatsor megoldásával adhatnak számot. Az alkalmazás feladatmegoldás közben visszajelzéseket ad a megoldások 
+helyességéről, valamint a játékosság és motiváció növelésére pontozza a feladatmegoldás gyorsaságát és helyességét.
 
+Feladatokat, tesztfeladatokat és megoldásokat a tanárok illetve az adminok tölthetnek fel a rendszerbe és módosíthatják 
+a meglévő adatokat.
 
+Cél, hogy az alkalmazást az interneten elérhessék a felhasználók, így nem szükséges különböző eszközökön egyesével 
+telepíteni a programot, a futtatáshoz elégséges legyen az internetkapcsolat és egy webes böngészőprogram.
 
+Fontos, hogy a felhasználók könnyen el tudjanak igazodni a felületeken, így a különböző jogkörökkel rendelkező felhasználók
+csak a hozzájuk tartozó nézetet láthassák, valamint ezek a felületek egyszerűek, letisztultak és egyértelműek legyenek.
 
-
+A rendszer fő célja, hogy a Követelmény és Funkcionális specifikációban meghatározott megrendelõi igények által növelje a 
+diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrzésre és értékelésre fordított idejé és energiáját.
 
 
 ## Projekt terv
