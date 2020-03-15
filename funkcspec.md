@@ -78,7 +78,21 @@ hogy mennyi pontot szerzett, és mint ez egy vissza igazolást ad a számára, h
 
 ## Használati esetek
 
+    Hozzáférések jogosultság szerint:
+        - adminisztrátor
+        - sima felhasználó
+    
+    Adminisztrátor használati esetei:
+        - Bejelentkezés: Az adminisztrátor képes bejelentkezni a rendszerbe.
+        - Feladatok: Az adminisztrátor képes feladatok feltölteni és eltávlítani.
+        - Felhasználók kezelése: Az admin képes a felhasználók kezelésére.
+        - Feladatok kitöltése: Az admin képest a adatbázisban lévő teszteket kitölteni ellenörzés céljából.
 
+    Sima felhasználó használati esetei:
+        - Regisztráció: A felhasználó képes önmagát beregisztrálni a rendszerbe.
+        - Bejelentkezés: Regisztráció után megnyílik a bejelentkezés lehetősége a rendszerbe.
+        - Feladatok: Az adatbázisba lévő feladatok kitöltése és eredmény áttekintése.
+        - Felhasználói adatok módosítása: A felhasználó megtudja változtani néhány személyes adatát.
 
 
 
