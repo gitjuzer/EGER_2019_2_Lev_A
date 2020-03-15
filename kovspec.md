@@ -88,7 +88,7 @@ Modifikáció | K4 | Felhasználó módosítása | 1.0 | A felhasználó módos�
 Modifikáció | K5 | Jelszó módosítása | 1.0 | A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
 Modifikáció	| K6 | Elfelejtett  jelszó | 1.0 | Ha a felhasználó elfejeltette a jelszavát akkor ezzel a megadott email címére kapni fog egy utasítást hogyan tud újat kapni.
 Feladattípus | K7 | Kérdés-felelet | 1.0 | Több kérdésből áll, a feladat a helyes válasz kiválasztása több lehetőség közül. A felhasználó az eltelt idő függvényében pontot kap.
-Feladattípus | K8 | Memóriajáték | 1.0 |	
+Feladattípus | K8 | Memóriajáték | 1.0 | Állítható nehézségű játék, ahol az egymáshoz tartozó kártyákat kell megtalálni.A felhasználó az eltelt idő és megtett lépések függvényében pontot kap. 
 Feladattípus | K9 | Akasztófa | 1.0 |	
 Felület | K10 | Bejelentkezés | 1.0	| A felhasználók itt tudnak bejeletkezni a rendszerbe, probléma esetén jelszót, emailt változtatni.
 Felület | K11 | Teszt létrehozás | 1.0 | Az admin, illetve tanári jogosultságú felhasználóknak elérehtő a teszt létrehozás, amit később kiadhat diákok számára.
