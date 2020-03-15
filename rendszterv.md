@@ -198,13 +198,14 @@ Egy gomb megnyomásával a főmenün, az Admin-nok elérhetnek egy, a rendszer s
 
 ## Fizikai környezet
 
-
-
-
-
-
-
-
+*Az alkalmazás web platformra készül.
+*Van tűzfal a hálózaton és minden portot is engedélyez.
+*Nincsenek megvásárolt komponenseink.
+*Fejlesztői eszközök:
+    *Visual Studio Code
+    *Notepad++
+    *MySQL Workbench
+    *Laravel Framework
 
 ## Absztrakt domain modell
 
