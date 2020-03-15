@@ -16,7 +16,7 @@
 
 ## Áttekintés
 
-
+    Egy olyan rendszert fejlesztünk, ami segíti a fiatalok tanulását, és a célunk, hogy a felhasználó a lehető legfrisebb tudáshoz jusson. Lehetőségük lesz a felhasználóknak játékos formában tanulni és ezáltal az oktató színesebbé, és játékosabbá teheti az óráját. Rengeteg téma közül lehet majd választani, épp ezért szinte bárki számára hasznos lesz ez az online felület. Természetesen nem csak számítógépen lesz elérhető az alkalmazás, hanem célunk hogy minél több platformon hozzá lehessen férni. Ez a rendszer ingyenes lesz, ezért bárki bárhonnan el tudja majd érni vagy esetleg interneten keresztül beregisztrál és máris hozzá jut a legfrissebb tudáshoz. Különböző feladatok lesznek az egyes témák végén amivel a felhasználó próbára teheti a tudását. Minden ilyen feladat megoldása után az adott személy láthatja, hogy mennyi pontot szerzett, és mint ez egy vissza igazolást ad a számára, hogy mennyire sikerült elsajátítania az adott témakört. 
 
 
 
