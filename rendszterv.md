@@ -251,13 +251,39 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 
 ## Tesztterv
 
+A szoftver helyességét és hatékonyságát a szoftver fejlesztése közben, kiadás előtt folyamatosan szükséges tesztelni.
+A tesztelések célja a szoftver funkcionalitásának teljes vizsgálata, ellenőrzése, a meghatározott üzleti folyamatok verifikációja.
 
 
+#### Unit tesztelés
+Célja a szoftver írása közbeni hibák elkerülése, ami segíti a fejlesztőcsapatot a költségek csökkentésében, a tesztidő 
+lerövidítésében, a regressziós tesztek csökkentésében és a későbbi bővítések és karbantartás megkönnyítésében. A fejlesztőcsapat
+végzi a fejlesztési időben.
+
+#### Integrációs tesztelés
+Célja az elkészült szoftverelemek, komponensek közötti kölcsönhatások tesztelése, a kockázatokat elkerülve, minden elkészült
+komponens esetén. A fejlesztőcsapat végzi a fejlesztési időben.
+
+#### Elfogadási tesztelés
+A megrendelői igények alapján meghatározott üzleti folyamatok tesztelése manuálisan vagy end-to-end tesztek segítségével.
+A fejlesztőcsapat végzi a fejlesztési időben.
 
 
+#### Rendszertesztelés
+Az elkészült szoftver tesztelése aszerint, hogy az megfelel-e a követelményspecifikációnak, a funkcionális specifikációnak 
+és a rendszertervnek. Elvégzése a fejlesztés végén történik, független személyek által. A rendszertesztelés során feltárt
+hibákat a tesztelők egy hibabejelentő rendszeren keresztül jelzik a fejlesztőcsapatnak.
 
+#### Átvételi tesztelés
+Az elkészült szoftver tesztelése a végfelhasználók által. A tesztelés során feltárt hibákat a tesztelők egy 
+hibabejelentő rendszeren keresztül jelzik a fejlesztőcsapatnak. A tesztelés a következő sorrendben történik:
+* Alpha tesztelés - szoftver segítségével a fejlesztők végzik
+* Béta tesztelés - korlátozott számú végfelhasználó végzi
+* Felhasználói átvételi tesztelés - nagy számú végfelhasználó végzi
+* Üzemeltetői átvételi tesztelés - rendszergazdai és biztonsági tesztelése a szoftvernek.
 
-
+A tesztelések során kijelölt hibabejelentő rendszeren keresztül, meghatározott tartalmi elemeknek megfelelő formátumban
+lehetséges a hibajelzsre, mely alapján a fejlesztőcsapat reprodukálja a hibát és kijavítja azt. 
 
 ## Telepítési terv
 
