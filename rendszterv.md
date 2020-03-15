@@ -297,6 +297,16 @@ lehetséges a hibajelzsre, mely alapján a fejlesztőcsapat reprodukálja a hib�
 
 ## Karbantartási terv
 
+A szoftver a jövőben nem igényel a fejlesztőcsapat részéről karbantartást. Új funkció hozzáadása vagy a szoftver esetleges
+karbantartása külön megállapodás tárgyát képezi.
+A szoftver üzemeltetése a rendszergazda feladata, aki a megrendelővel áll szerződésben. Az előre látható üzemeltetési feladatok
+között a következők szerepelnek:
+* rendszeres biztonsági mentés készítése
+* hiba esetén az utolsó konzisztens állapot visszaállítása
+* kiszolgáló szerver állpotának ellenőrzése, szükség szerint újraindítása
+* biztonsági beállítások ellenőrzése
+* rendszerellenőrzés és frissítés
+
 
 
 
