@@ -42,6 +42,21 @@
 	A szórakoztatóbb tanulás érdekében játékos elemeket tartalmaznak az egyes feladatok.
 	A rendszer lehetőséget nyújt a felhasználók teljesítményének tárolására (toplista), ennek segítségével másokkal is összemérhetik a tudásukat.
 	A rendszerben szükséges egy pontozási rendszer, amely a helyesen megválaszolt feladványok után adja a felhasználónak a pontokat.
+
+     Memóriajáték
+        Bejelentkezés után a felhasználó kiválaszthatja, hogy memóriajátékot szeretne játszani.
+        A játéknak van egy kezdőoldala, ahol játékot kiválaszthatja a következőket:
+           * milyen típusú memóriajátékot szeretne játszani - képes vagy szöveges
+           * milyen nehézségű legyen a játék (hány kártya jelenjen meg)
+           * milyen témában szeretne játszani
+        Játék indítása gomb megnyomását követően elindul a játék.
+        A játék során számoljuk a játékos által megtett lépéseket.
+        A játék elkezdése és befejezése közt eltelt időt mérjük és mentjük adatbázisba, a további kiértékelések érdekében.
+        A megtett lépések az idő és a nehézségi szint alapján kap a játékos pontszámot
+        Ha minden párt megtalál a játékos, a játék véget ér, egy felugró ablakban "Nyertél!" felirat és az elért pontszám jelenik meg 
+        Ha az első 3-ban benne van a játékos a pontszámok alapján, akkor a helyezés megjelenik és a felhasználó kap egy jelvényt.
+
+
 ## Jelenlegi üzleti folyamatok modellje
     A mai világban az oktatás nem használja ki a már meglévő technológiákat arra, hogy a tanulást sokkal szórakoztatóbbá és interaktívabbá tegye. A jelenlegi világban a fiatalok egyre kevésbé hajlandóak a "klasszikus" módon tanulni, ezért a különböző oktatási intézmények alternatív módszereket keresnek. Jelenleg a diákok tankönyvekből tanulnak és papír alapon adnak számot tudásukról, amely a XXI. században elavultnak számít. Ez rengeteg nyomdai és nyomtatási költséget jelent. Az oktatóknak rengeteg időt elvesz az idejéből a dolgozatok egyesével való kijavítása. Illetve a dolgozatok megírása papíron is sokkal időigényesebb, mintha különböző alkalmazásokat használnánk a diákok számonkérésére.
 
@@ -50,7 +65,16 @@
 
 ## Igényelt üzleti folyamatok modellje
 
-
+    A felhasználó a fő oldalon regisztrál vagy ha már korábban megtette, bejelentkezik felhasználónév és jelszó segítségével,
+    ezt ingyenesen és bárhonnan megteheti.
+    Bejelentkezést követően szerepkörtől függően (oktató, diák) különböző funkciókhoz fér hozzá a felhasználó.
+    Oktató szerepkörrel új feladatok állíthatók össze illetve a meglévők szerkeszthetőek. Választható feladattípusok:
+    akasztófa, memóriajáték, kvíz feladat. 
+    A témakörökre megkötés nincs.
+    Diák szerepkörrel csak feladatmegoldásra van lehetőség az oldalon szereplő feladattípusok és témakörök szerint. 
+    A feladatmegoldás során automatikus a visszajelzés a megoldás helyességéről, így önállóan használható valamint
+    pontozási rendszer segítségével nyomon követhető a teljesítmény.
+    
 
 
 ## Követelmény lista
@@ -64,7 +88,7 @@ Modifikáció | K4 | Felhasználó módosítása | 1.0 | A felhasználó módos�
 Modifikáció | K5 | Jelszó módosítása | 1.0 | A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
 Modifikáció	| K6 | Elfelejtett  jelszó | 1.0 | Ha a felhasználó elfejeltette a jelszavát akkor ezzel a megadott email címére kapni fog egy utasítást hogyan tud újat kapni.
 Feladattípus | K7 | Kérdés-felelet | 1.0 | Több kérdésből áll, a feladat a helyes válasz kiválasztása több lehetőség közül. A felhasználó az eltelt idő függvényében pontot kap.
-Feladattípus | K8 | Memóriajáték | 1.0 |	
+Feladattípus | K8 | Memóriajáték | 1.0 | Állítható nehézségű játék, ahol az egymáshoz tartozó kártyákat kell megtalálni.A felhasználó az eltelt idő és megtett lépések függvényében pontot kap. 
 Feladattípus | K9 | Akasztófa | 1.0 |	
 Felület | K10 | Bejelentkezés | 1.0	| A felhasználók itt tudnak bejeletkezni a rendszerbe, probléma esetén jelszót, emailt változtatni.
 Felület | K11 | Teszt létrehozás | 1.0 | Az admin, illetve tanári jogosultságú felhasználóknak elérehtő a teszt létrehozás, amit később kiadhat diákok számára.

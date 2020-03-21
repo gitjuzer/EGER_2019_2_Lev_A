@@ -100,9 +100,38 @@ hogy mennyi pontot szerzett, és mint ez egy vissza igazolást ad a számára, h
 
 ## Forgatókönyv
 
-
-
-
-
+    Regisztráció:
+    A weboldal felkeresése után, a kezdőképernyőn a Regisztráció gomb segítségével lehet regisztrálni. A regisztrációs 
+    űrlap megfelelő kitöltését (Felhasználónév, E-mail, Jelszó, Jelszó megerősítése), és a Regisztráció gomb megnyomását
+    követően, amennyiben a megadott adatok helyesek, a 'Sikeres regisztráció' üzenet jelenik meg, ami után be is léptet 
+    a rendszer.
+    
+    Bejelentkezés:
+    A weboldal felkeresése után, a kezdőképernyőn a Bejelentkezés gomb segítségével lehet belépni a felhasználói fiókba,
+    melynek feltétele, hogy a korábbi regisztráció az oldalra. A gomb lenyomása után meg kell adni a bejelentkezéshez szükséges 
+    adatokat(Felhasználónév, Jelszó), és amennyiben helyes adatok kerültek megadásra, úgy a Bejelentkezés gomb lenyomásával
+    a rendszer bejelentkeztet a felhasználói fiókba.
+    
+    Elfelejtett jelszó: 
+    Ammenyiben a felhasználó elfelejtette a jelszavát, úgy a weboldal felkeresése utána, a Bejelentkezés gomb lenyomása 
+    után, az  Elfelejtett jelszó szövegre kattintva kérheti a jelszó változtatását. Itt a felhasználói fiókhoz tartozó
+    e-mail cím megadása után, a Jelszó változtatás gombra rányomva, az 'Ellenőrizd az e-mail fiókod!' üzenetet jelenik meg. 
+    Az új jelszó igényléséneklépéseit az e-mail üzenet tartalmazza.
+    
+    Profil adatok: 
+    Bejelentkezést követően, a Fiókom menüpont alatt lehetőség van megtekinteni a felhasználó és a felhasználói fiókkal 
+    kapcsolatos adatokat. Ezen a felületen lehetőség van a felhasználónév és a jelszó módosítására.
+    
+    Játéktípus kiválasztása: 
+    Sikeres bejelentkezést követően Diák jogosultsági szinten, a főoldalon a választható játéktípusok jelennek meg.
+    A tanulás megkezdéséhez ki kell választani az a játéktípust, amellyel a felhasználó tanulni szeretne. A játékon belül
+    lehetséges kiválasztani a témakört és játékhoz tartozó egyéb beállításokat.
+    
+    Tananyag feltöltése, teszt létrehozás:
+    Sikeres bejelentkezést követően Admin és Tanár jogosultsági szinten elérhető a tananyag feltöltése / módosítása 
+    menüpont, melyen keresztül az Új feladat gomb megnyomását követően új tananyag / feladat adható a különböző 
+    feladattípusokhoz vagy módosíthatók a már feltöltött feladatok.
+    Az Új teszt gomb lenyomását követően teszt feladatsor adható a rendszerhez, amely hozzárendelhető a Diák jogosultságú
+    felhasználókhoz, kitöltésre. 
 
 ## Fogalomszótár

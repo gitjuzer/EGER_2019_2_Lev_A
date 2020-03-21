@@ -19,7 +19,7 @@
     * Karbantartási terv
 
 
-1. Konceptuális rendszerterv
+# Konceptuális rendszerterv
 
 A rendszer célja, hogy a felhasználók egy egyszerű és játékos környezetben tudjanak tanulni. Célunk, hogy egy olyan programot létrehozzunk, amelyben a felhasználok, különböző szerepkörökben tudnak a rendszerrel interaktiválni. Fontos, hogy a rendszer használhatósága egyszerű legyen. Minden felhasználónak érthető legyen, hogy mit és hogyan lehet a rendszerben csinálni.
 
@@ -138,22 +138,25 @@ Egy gomb megnyomásával a főmenün, az Admin-nok elérhetnek egy, a rendszer s
 	
 # Részletes rendszerterv
 
-
-
-
-
-
-
-
-
 ## Rendszer célja
 
+A rendszer általános célja, hogy segítse a diákokat a tanulásban és az elsajátítandó tananyag könnyebb feldolgozásában.
 
+Ehhez a diákok játékos formában oldhatnak meg különböző témakörökben feladatokat, hogy mélyítsék tudásukat, melyről 
+tesztfeladatsor megoldásával adhatnak számot. Az alkalmazás feladatmegoldás közben visszajelzéseket ad a megoldások 
+helyességéről, valamint a játékosság és motiváció növelésére pontozza a feladatmegoldás gyorsaságát és helyességét.
 
+Feladatokat, tesztfeladatokat és megoldásokat a tanárok illetve az adminok tölthetnek fel a rendszerbe és módosíthatják 
+a meglévő adatokat.
 
+Cél, hogy az alkalmazást az interneten elérhessék a felhasználók, így nem szükséges különböző eszközökön egyesével 
+telepíteni a programot, a futtatáshoz elégséges legyen az internetkapcsolat és egy webes böngészőprogram.
 
+Fontos, hogy a felhasználók könnyen el tudjanak igazodni a felületeken, így a különböző jogkörökkel rendelkező felhasználók
+csak a hozzájuk tartozó nézetet láthassák, valamint ezek a felületek egyszerűek, letisztultak és egyértelműek legyenek.
 
-
+A rendszer fő célja, hogy a Követelmény és Funkcionális specifikációban meghatározott megrendelõi igények által növelje a 
+diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrzésre és értékelésre fordított idejé és energiáját.
 
 
 ## Projekt terv
@@ -249,13 +252,39 @@ Egy gomb megnyomásával a főmenün, az Admin-nok elérhetnek egy, a rendszer s
 
 ## Tesztterv
 
+A szoftver helyességét és hatékonyságát a szoftver fejlesztése közben, kiadás előtt folyamatosan szükséges tesztelni.
+A tesztelések célja a szoftver funkcionalitásának teljes vizsgálata, ellenőrzése, a meghatározott üzleti folyamatok verifikációja.
 
 
+#### Unit tesztelés
+Célja a szoftver írása közbeni hibák elkerülése, ami segíti a fejlesztőcsapatot a költségek csökkentésében, a tesztidő 
+lerövidítésében, a regressziós tesztek csökkentésében és a későbbi bővítések és karbantartás megkönnyítésében. A fejlesztőcsapat
+végzi a fejlesztési időben.
+
+#### Integrációs tesztelés
+Célja az elkészült szoftverelemek, komponensek közötti kölcsönhatások tesztelése, a kockázatokat elkerülve, minden elkészült
+komponens esetén. A fejlesztőcsapat végzi a fejlesztési időben.
+
+#### Elfogadási tesztelés
+A megrendelői igények alapján meghatározott üzleti folyamatok tesztelése manuálisan vagy end-to-end tesztek segítségével.
+A fejlesztőcsapat végzi a fejlesztési időben.
 
 
+#### Rendszertesztelés
+Az elkészült szoftver tesztelése aszerint, hogy az megfelel-e a követelményspecifikációnak, a funkcionális specifikációnak 
+és a rendszertervnek. Elvégzése a fejlesztés végén történik, független személyek által. A rendszertesztelés során feltárt
+hibákat a tesztelők egy hibabejelentő rendszeren keresztül jelzik a fejlesztőcsapatnak.
 
+#### Átvételi tesztelés
+Az elkészült szoftver tesztelése a végfelhasználók által. A tesztelés során feltárt hibákat a tesztelők egy 
+hibabejelentő rendszeren keresztül jelzik a fejlesztőcsapatnak. A tesztelés a következő sorrendben történik:
+* Alpha tesztelés - szoftver segítségével a fejlesztők végzik
+* Béta tesztelés - korlátozott számú végfelhasználó végzi
+* Felhasználói átvételi tesztelés - nagy számú végfelhasználó végzi
+* Üzemeltetői átvételi tesztelés - rendszergazdai és biztonsági tesztelése a szoftvernek.
 
-
+A tesztelések során kijelölt hibabejelentő rendszeren keresztül, meghatározott tartalmi elemeknek megfelelő formátumban
+lehetséges a hibajelzsre, mely alapján a fejlesztőcsapat reprodukálja a hibát és kijavítja azt. 
 
 ## Telepítési terv
 
@@ -268,6 +297,16 @@ Egy gomb megnyomásával a főmenün, az Admin-nok elérhetnek egy, a rendszer s
 
 
 ## Karbantartási terv
+
+A szoftver a jövőben nem igényel a fejlesztőcsapat részéről karbantartást. Új funkció hozzáadása vagy a szoftver esetleges
+karbantartása külön megállapodás tárgyát képezi.
+A szoftver üzemeltetése a rendszergazda feladata, aki a megrendelővel áll szerződésben. Az előre látható üzemeltetési feladatok
+között a következők szerepelnek:
+* rendszeres biztonsági mentés készítése
+* hiba esetén az utolsó konzisztens állapot visszaállítása
+* kiszolgáló szerver állpotának ellenőrzése, szükség szerint újraindítása
+* biztonsági beállítások ellenőrzése
+* rendszerellenőrzés és frissítés
 
 
 
