@@ -37,7 +37,6 @@ Memóriajáték
     
     A megtett lépések az idő és a nehézségi szint alapján kap a játékos pontszámot
     A kapott pontszám megjelenik a képernyőn és tároljuk adatbázisban is.
-    Ha az első 3-ban benne van a játékos a pontszámok alapján, akkor a pop upban megjelenik és kap egy jelvényt.
 
 
 ## Jelenlegi üzleti folyamatok modellje
