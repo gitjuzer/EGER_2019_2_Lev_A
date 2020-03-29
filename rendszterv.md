@@ -242,12 +242,28 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 
 ## Implementációs terv
 
+Backend
+Backend részen a kiszolgáló egy php-ban készült REST szolgáltatás lesz.
+Ez csatlakozik egy php myadminos szerver oldali adatbázishoz, ahonnan eljárások segítségével képes lesz adatokat lekérni, és felvinni, valamint képes továbbküldeni, és fogadni a kliens/kliensek által szolgáltatott adatokat.
 
+Metódusai:
 
+Regisztráció
+* Login
+* Logout
+* Jelszóváltoztatás
+* Lekérdezés feladatonként (kérdés és hozzátartozó válaszok)
+* Lekérdezés feladattípusokként
+* Játékosok Toplistájának lekérdezése
+* Saját eredmény lekérdezése
+* Aktuális válasz ellenőrzése/felvitele adatbázisba
+* Pontszám számítása/felvitele adatbázisba
+* Feladatok feltöltése (csak adminnak)
+* Minden user lekérdezése (csak adminnak)
 
-
-
-
+Web
+A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében. Képes lesz felhasználni a Backend részen futó REST szolgáltatás metódusait, ezáltal tud felvinni és lekérdezni adatokat az adatbázisból. Az eltelt időt a kliens fogja számolni a feladatoknál, hogy ne legyenek eltérések.
 
 
 ## Tesztterv
