@@ -172,7 +172,15 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 ## Üzleti folyamatok modellje
 
 
+## Igényelt folyamatok modellje
 
+    Azért hogy egyszerűbbé tegyük a diákok és a tanárok feladatát, létrehozunk egy programot ami a mai kornak megelelően helyt tud álni az elektronikai világban. A tanároknak egyszerűbb lesz mert , csak egyszer kell felvinniük a rendszerbe a feladatsort és a helyes válaszokat is csak egyszer kell kiválasztania. Ezáltal nem kell minden dolgozatot eggysével étvizsgálni lepontoznia és érdemjegyet adni rá, gy sokkal több időt megtakaríthat. A diákoknak is sokkal jobb mert nem kell azon görcsölniük hogy milyen lett az eredmény mert a teszt kitöltése után egyből megtudják az eredményt és a hibás válaszokra is a helyes választ. Illetve tanulni is sokkal könnyeb nekik mert csak előkeresik a az éppen feladott leckét és már tanulhatják is és egyből ellenőrizhetik magukat. Nem kell minden egyes könvet külön elükeresni megkeresni a fejezetet végiglapozni. A szülők egyből értesülnek a dolgozatok eredményeiről.
+    
+#Memória játék
+
+    Szeretnénk egy olyan játékot amivel akár már gyermekkorban ellehet kezdeni a memória fejlesztését.
+    Gondolok itt a kódolásra ami az infirmáció befogadása és feldolgozása kombinálása, ezen túl még a tárolásra vagyis a kódolt i   nformáció tartós regisztrálása és az előhívásra egyaránt, vagyis az eltűrolt információ felidézése valamely inger hatására.
+    Szeretnénk minél szélesebb korban fejleszteni a memóriát, tehát 0 - végtelen korig.Emiatt nem csak szimpla képek felidézése a cél, hanem versek, szövegek összekötése is.
 
 
 
@@ -182,11 +190,16 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 ## Követelmények
 
 
+A rendszertervben megtalálható követelmények az iskola átal elfogadott Rendszerjavaslat alapján lettek kidolgozva. Ez azt jelenti, hogy a követelmények a Sikeres lefejlesztés követelményei alapján vannak felsorolva
 
-
-
-
-
+ID			NÉV								KIFEJTÉS			
+Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen átlátható a gyermekek számára.
+Kov_002		Játékos megoldások		        Fontos, hogy a memória játék kisiskolások számára minél élvezhetőbb legyen.
+Kov_003		Felület							Legyen online felület.
+Kov_004		Egyéni játék					Olyan programot kell létrehozni, amit egy iskolás kezel.
+Kov_005		Adatvédelem						Az adatokat a GDPR-nak megfelelően kell kezeljék.
+Kov_006		Jogosultság						Regisztrációhoz kötött a memóriajáték elérése.
+Kov_007		Vizualitás						Képek és hangok könnyítsék meg a megértést.
 
 
 ## Funkcionális terv

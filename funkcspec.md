@@ -47,12 +47,19 @@
 ## Jelenlegi folyamatok modellje
 
 
-
+#Memória játék
+    Az emlékezet egy szervezet azon képessége, hogy eltároljon, megőrizzen és előhívjon információkat és élményeket. Az emlékezet     hagyományos kutatásai a filozófiai területén kezdődtek. A 19. század végén, illetve a 20. század elején az emlékezetkutatást a kognitív pszichológia keretein belül folytatódott. A kutatók jelenleg úgy vélik, hogy az emlékezés egy komplex, az agy számos területére kiterjedő folyamat, amely nem csak az agy egy meghatározott régiójában zajlik. Az emlékezés folyamata kódolással kezdődik, majd tárolással folytatódik és végül a felidézéssel zárul. Az utóbbi évtizedekben az emlékezetkutatás a kognitív tudományok vezető témájává vált, mintegy interdiszciplináris láncszemként a kognitív pszichológia és az idegtudomány között.Emiatt nagy a fontossága a memória fejlesztésének már gyermekkorban.
 
 
 ## Igényelt folyamatok modellje
 
     Azért hogy egyszerűbbé tegyük a diákok és a tanárok feladatát, létrehozunk egy programot ami a mai kornak megelelően helyt tud álni az elektronikai világban. A tanároknak egyszerűbb lesz mert , csak egyszer kell felvinniük a rendszerbe a feladatsort és a helyes válaszokat is csak egyszer kell kiválasztania. Ezáltal nem kell minden dolgozatot eggysével étvizsgálni lepontoznia és érdemjegyet adni rá, gy sokkal több időt megtakaríthat. A diákoknak is sokkal jobb mert nem kell azon görcsölniük hogy milyen lett az eredmény mert a teszt kitöltése után egyből megtudják az eredményt és a hibás válaszokra is a helyes választ. Illetve tanulni is sokkal könnyeb nekik mert csak előkeresik a az éppen feladott leckét és már tanulhatják is és egyből ellenőrizhetik magukat. Nem kell minden egyes könvet külön elükeresni megkeresni a fejezetet végiglapozni. A szülők egyből értesülnek a dolgozatok eredményeiről.
+    
+#Memória játék
+
+    Szeretnénk egy olyan játékot amivel akár már gyermekkorban ellehet kezdeni a memória fejlesztését.
+    Gondolok itt a kódolásra ami az infirmáció befogadása és feldolgozása kombinálása, ezen túl még a tárolásra vagyis a kódolt i   nformáció tartós regisztrálása és az előhívásra egyaránt, vagyis az eltűrolt információ felidézése valamely inger hatására.
+    Szeretnénk minél szélesebb korban fejleszteni a memóriát, tehát 0 - végtelen korig.Emiatt nem csak szimpla képek felidézése a cél, hanem versek, szövegek összekötése is.
 
 ## Követelmény lista
 
