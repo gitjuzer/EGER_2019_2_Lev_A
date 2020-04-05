@@ -191,13 +191,31 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 
 ## Funkcionális terv
 
-
-
-
-
-
-
-
+Rendszerszereplők
+ * Admin
+ * Diák
+ * Tanár
+ * Szülő
+Rendszerhasználati esetek és lefutásaik
+ADMIN
+ * Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
+ * A felhasználói adatokat látják, változtathatják
+ * Felhasználó hozzáadására, törlésére van lehetőségük
+ * Feladatlétrehozás mint a Tanárok
+ * Üzenetüldés bárkinek vagy globálisan
+ * Felhasználói adatok módosítása
+ * Tesztek létrehozása, törlése, módosítása
+ * Kvízek létrehozása, törlése, módosítása
+DIÁK
+ * Képes kvízt kitölteni, aminek végén pontot szerez
+ * El tudja érni az órarendjét
+ * Teszt felület elérése, ami egy kívzhez hasonló felület ahol eredményjegyet szerezhet a diák
+TANÁR
+ * Mindenki felé tud kommunikálni
+ * A diákok által elérhető tesztet és kvízt tud létrehozni, pontjait és időkorlátait megállapítani
+ * Tesztek létrehozása, törlése, módosítása
+ * Kvízek létrehozása, törlése, módosítása
+ * Diákok adatait módosíthatja
 
 ## Fizikai környezet
 
