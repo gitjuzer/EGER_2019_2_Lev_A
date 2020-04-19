@@ -244,7 +244,7 @@ TANÁR
 
 ## Adatbázis terv
 
-
+![alt text](https://github.com/gitjuzer/EGER_2019_2_Lev_A/blob/develop/images/datamodel_rendszerterv.png "Data model")	
 
 
 
