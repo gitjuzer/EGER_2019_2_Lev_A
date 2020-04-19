@@ -76,7 +76,17 @@
 
 ## Képernyőtervek
 
-	
+ Regisztrációs felület:
+
+![alt text](https://github.com/gitjuzer/EGER_2019_2_Lev_A/blob/develop/images/registration.png "Registration")
+
+Bejelentkező felület:
+
+![alt text](https://github.com/gitjuzer/EGER_2019_2_Lev_A/blob/develop/images/login.png "Login")
+
+Quiz felület:
+
+![alt text](https://github.com/gitjuzer/EGER_2019_2_Lev_A/blob/develop/images/quiz.png "Quiz")	
 	
 
 ## Adatmodell
