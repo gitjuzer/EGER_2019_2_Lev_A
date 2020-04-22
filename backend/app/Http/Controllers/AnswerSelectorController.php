@@ -13,7 +13,7 @@ class AnswerSelectorController extends Controller
      */
     public function index()
     {
-        //
+        return view('answerSelector.index');
     }
 
     /**

@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.app');
 });
+
+/* A resource beregisztrálja az összes "alap" routet a kontrollerhez
+(amiben a php artisan make:controller AnswerSelectorController --resource
+kapcsolóval szintén létrehoztam az alap funkciókat) */
 Route::resource('AnswerSelector', 'AnswerSelectorController');
+
