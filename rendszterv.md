@@ -230,8 +230,65 @@ TANÁR
 
 ## Absztrakt domain modell
 
+Fogalomszótár:    
 
+Backend
+A kiszolgáló, ahonnan az alkalmazást el lehet érni.
 
+Frontend
+Egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+
+Web-service
+Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások interneten keresztül történő adatcseréjére használt vebszolgáltatások.
+
+Multiplatform
+Több környezetben futtatható alkalmazás.
+
+Bug
+Fejlesztési hiba ami által a program nem a várt eredményt hozza.
+
+Felület
+Olyan környezet, ahol megjelenik a leprogramozott, és stílusolt oldal.
+
+Main menu
+A fő menü, amely a weboldal/program indulásakor megjelenik.
+
+Felhasználó
+Olyan személy aki használja a programot, szerepkörökbe osztjuk őket.
+
+Szerepkör
+A programot használó különböző résztvevők, amelyek lehetnek Diákok, Tanárok, Szülők, Adminok, stb.
+
+Jogosultsági szintek
+A különböző szerepkörök, különböző jogosultságokkal rendelkeznek, így nem mindenki fér hozzá mindenhez.
+
+Bejelentkezés
+A felhasználók itt tudnak belépni a rendszerbe, egy felhasználónév és egy jelszó segítségével.
+
+Felhasználónév
+A felhasználó választott neve, ami szükséges a rendszerbe való belépéshez.
+
+Jelszó
+Betűkből, számokból, szimbólumokból álló, a felhasználó átlat választott titkosított szöveg.
+
+Tananyag
+Az alkalmazásba feltöltött oktatásra szánt ismeretkör összessége amit a tanár ad meg.
+
+kvíz
+Egy kitöltendő feladatsor amit a tanár tesz fel és a diákoknak kell kitölteni, a diákok pontszámokat kapnak és láthatnak egy toplistát.
+
+Teszt
+Egy kitöltendő feladatsor, a kvízzel hasonló, de érdemjegyet is kapnak a diákok a kitöltésükért.
+
+Gameboard
+A kvíz / Teszt közben, a különböző elemeket tartalmazó felület.
+
+Toplista
+A játék végén megjelenő panel, amely a statisztikát mutatja.
+
+Admin felület
+Olyan speciális felület, ahol az admin szerepkörben, vagy admin jogosultsággal való felhasználók modósíthatják magát a program egyes részeit.
+	
 ## Architekturális terv
 
 
