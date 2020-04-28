@@ -17,4 +17,8 @@ class Score extends Model
     protected $fillable = [
         'score'
     ];
+
+    public function user (){
+        return $this->belongsTo('App\User');
+    }
 }
