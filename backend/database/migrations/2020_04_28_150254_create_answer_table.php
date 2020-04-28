@@ -17,7 +17,6 @@ class CreateAnswerTable extends Migration
             $table->bigIncrements('id');
             $table->string('text');
             $table->boolean('correct')->default(false);
-            $table->integer('question');
             $table->timestamps();
         });
     }
