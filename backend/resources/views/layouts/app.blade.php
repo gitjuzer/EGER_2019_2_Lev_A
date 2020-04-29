@@ -18,8 +18,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Feleletválasztós teszt</a>
+                <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Feleletválasztós teszt
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/AnswerSelector/NewQuestion">Új kérdés hozzáadása</a>
+                <a class="dropdown-item" href="/AnswerSelector/ListQuestions">Kérdések kilistázása</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Feature 2</a>

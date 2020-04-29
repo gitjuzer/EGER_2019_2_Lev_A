@@ -19,4 +19,4 @@ Route::get('/', function () {
 (amiben a php artisan make:controller AnswerSelectorController --resource
 kapcsolóval szintén létrehoztam az alap funkciókat) */
 Route::resource('AnswerSelector', 'AnswerSelectorController');
-
+Route::resource('AnswerSelector/NewQuestion', 'NewQuestionController');
