@@ -23,7 +23,7 @@
                 Feleletválasztós teszt
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/AnswerSelector/NewQuestion">Új kérdés hozzáadása</a>
+                <a class="dropdown-item" href="NewQuestion">Új kérdés hozzáadása</a>
                 <a class="dropdown-item" href="/AnswerSelector/ListQuestions">Kérdések kilistázása</a>
               </div>
             </li>

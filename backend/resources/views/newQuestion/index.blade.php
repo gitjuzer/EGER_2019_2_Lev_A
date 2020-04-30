@@ -19,12 +19,17 @@
   </style>
  </head>
  <body>
-  <br />
+  <br />   
+  @if(isset($uploaded))
+    <div class="alert alert-success" role="alert">
+        A kérdés sikeresen fel lett véve az adatbázisba.
+        </div>
+  @endif
+
   <div class="container box">
    <h3 align="center">Új kérdés feltöltése</h3><br />
 
-
-   <form method="post" action="{{ url('/NewQuestion/create') }}">
+   <form method="post" action="{{ url('/NewQuestion') }}">
     {{ csrf_field() }}
     <div class="form-group">
      <label>Kérdés</label>

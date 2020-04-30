@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
+use App\Quotation;
 
 class NewQuestionController extends Controller
 {
@@ -23,7 +25,7 @@ class NewQuestionController extends Controller
      */
     public function create()
     {
-        
+       
     }
 
     /**
@@ -34,7 +36,8 @@ class NewQuestionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        DB::insert('insert into question (question,created_at,updated_at) values (?, ?, ?)', [$_POST["question"],time(), time()]);
+        return view('newQuestion.index',['uploaded' => 'true']);
     }
 
     /**
