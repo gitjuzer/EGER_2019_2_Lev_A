@@ -22,6 +22,7 @@
   <br />   
 
   <div class="container box">
+  <h3 align="center">Válaszok</h3><br />
     <table class="table">
     <thead>
       <tr>

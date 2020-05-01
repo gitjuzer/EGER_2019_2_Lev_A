@@ -23,6 +23,7 @@
 
 
   <div class="container box">
+  <h3 align="center">Kérdések</h3><br />
     <table class="table">
     <thead>
       <tr>
