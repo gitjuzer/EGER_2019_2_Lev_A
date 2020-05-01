@@ -25,7 +25,7 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="NewQuestion">Új kérdés hozzáadása</a>
                 <a class="dropdown-item" href="NewAnswer">Új válasz hozzáadása</a>
-                <a class="dropdown-item" href="/AnswerSelector/ListQuestions">Kérdések kilistázása</a>
+                <a class="dropdown-item" href="ListQuestions">Kérdések kilistázása</a>
               </div>
             </li>
             <li class="nav-item">
