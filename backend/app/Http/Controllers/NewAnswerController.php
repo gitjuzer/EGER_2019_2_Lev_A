@@ -25,7 +25,8 @@ class NewAnswerController extends Controller
      */
     public function create()
     {
-       
+        DB::insert('insert into answer (text,created_at,updated_at) values (?, ?, ?)', [$_POST["answer"],time(), time()]);
+        return view('newAnswer.index',['uploaded' => 'true']);
     }
 
     /**

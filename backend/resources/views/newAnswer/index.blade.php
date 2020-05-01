@@ -20,6 +20,7 @@
  </head>
  <body>
   <br />   
+
   @if(isset($uploaded))
     <div class="alert alert-success" role="alert">
         A válasz sikeresen fel lett véve az adatbázisba.
