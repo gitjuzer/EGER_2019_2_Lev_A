@@ -22,3 +22,4 @@ Route::resource('AnswerSelector', 'AnswerSelectorController');
 Route::resource('NewQuestion', 'NewQuestionController');
 Route::resource('NewAnswer', 'NewAnswerController');
 Route::resource('ListQuestions', 'ListQuestionsController');
+Route::resource('ListAnswers', 'ListAnswersController');

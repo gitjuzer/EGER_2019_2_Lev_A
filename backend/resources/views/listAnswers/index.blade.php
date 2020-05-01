@@ -21,21 +21,20 @@
  <body>
   <br />   
 
-
   <div class="container box">
     <table class="table">
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">Kérdés</th>
+        <th scope="col">Válasz</th>
         <th scope="col">Hozzáadva</th>
       </tr>
     </thead>
     <tbody>
-    @foreach($question as $key => $data)
+    @foreach($answer as $key => $data)
       <tr>  
         <th scope="row">{{$data->id}}</th>  
-        <th>{{$data->question}}</th>
+        <th>{{$data->text}}</th>
         <th>{{date("Y-m-d H:i:s",intval($data->created_at))}}</th>          
       </tr>
   @endforeach
