@@ -20,3 +20,4 @@ Route::get('/', function () {
 kapcsolóval szintén létrehoztam az alap funkciókat) */
 Route::resource('AnswerSelector', 'AnswerSelectorController');
 Route::resource('NewQuestion', 'NewQuestionController');
+Route::resource('NewAnswer', 'NewAnswerController');
