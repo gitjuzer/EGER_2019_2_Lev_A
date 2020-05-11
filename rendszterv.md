@@ -172,7 +172,15 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 ## Üzleti folyamatok modellje
 
 
+## Igényelt folyamatok modellje
 
+    Azért hogy egyszerűbbé tegyük a diákok és a tanárok feladatát, létrehozunk egy programot ami a mai kornak megelelően helyt tud álni az elektronikai világban. A tanároknak egyszerűbb lesz mert , csak egyszer kell felvinniük a rendszerbe a feladatsort és a helyes válaszokat is csak egyszer kell kiválasztania. Ezáltal nem kell minden dolgozatot eggysével étvizsgálni lepontoznia és érdemjegyet adni rá, gy sokkal több időt megtakaríthat. A diákoknak is sokkal jobb mert nem kell azon görcsölniük hogy milyen lett az eredmény mert a teszt kitöltése után egyből megtudják az eredményt és a hibás válaszokra is a helyes választ. Illetve tanulni is sokkal könnyeb nekik mert csak előkeresik a az éppen feladott leckét és már tanulhatják is és egyből ellenőrizhetik magukat. Nem kell minden egyes könvet külön elükeresni megkeresni a fejezetet végiglapozni. A szülők egyből értesülnek a dolgozatok eredményeiről.
+    
+#Memória játék
+
+    Szeretnénk egy olyan játékot amivel akár már gyermekkorban ellehet kezdeni a memória fejlesztését.
+    Gondolok itt a kódolásra ami az infirmáció befogadása és feldolgozása kombinálása, ezen túl még a tárolásra vagyis a kódolt i   nformáció tartós regisztrálása és az előhívásra egyaránt, vagyis az eltűrolt információ felidézése valamely inger hatására.
+    Szeretnénk minél szélesebb korban fejleszteni a memóriát, tehát 0 - végtelen korig.Emiatt nem csak szimpla képek felidézése a cél, hanem versek, szövegek összekötése is.
 
 
 
@@ -182,113 +190,48 @@ diákok tanulásának hatékonyságát, csökkentse a tanárok feladatellenőrz�
 ## Követelmények
 
 
+A rendszertervben megtalálható követelmények az iskola átal elfogadott Rendszerjavaslat alapján lettek kidolgozva. Ez azt jelenti, hogy a követelmények a Sikeres lefejlesztés követelményei alapján vannak felsorolva
 
-
-
-
-
+ID			NÉV								KIFEJTÉS			
+Kov_001		Egyszerű, letisztult felület	Olyan felületet szeretnénk, ami könnyen átlátható a gyermekek számára.
+Kov_002		Játékos megoldások		        Fontos, hogy a memória játék kisiskolások számára minél élvezhetőbb legyen.
+Kov_003		Felület							Legyen online felület.
+Kov_004		Egyéni játék					Olyan programot kell létrehozni, amit egy iskolás kezel.
+Kov_005		Adatvédelem						Az adatokat a GDPR-nak megfelelően kell kezeljék.
+Kov_006		Jogosultság						Regisztrációhoz kötött a memóriajáték elérése.
+Kov_007		Vizualitás						Képek és  könnyítsék meg a megértést.
 
 
 ## Funkcionális terv
 
-Rendszerszereplők
- * Admin
- * Diák
- * Tanár
- * Szülő
-Rendszerhasználati esetek és lefutásaik
-ADMIN
- * Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
- * A felhasználói adatokat látják, változtathatják
- * Felhasználó hozzáadására, törlésére van lehetőségük
- * Feladatlétrehozás mint a Tanárok
- * Üzenetüldés bárkinek vagy globálisan
- * Felhasználói adatok módosítása
- * Tesztek létrehozása, törlése, módosítása
- * Kvízek létrehozása, törlése, módosítása
-DIÁK
- * Képes kvízt kitölteni, aminek végén pontot szerez
- * El tudja érni az órarendjét
- * Teszt felület elérése, ami egy kívzhez hasonló felület ahol eredményjegyet szerezhet a diák
-TANÁR
- * Mindenki felé tud kommunikálni
- * A diákok által elérhető tesztet és kvízt tud létrehozni, pontjait és időkorlátait megállapítani
- * Tesztek létrehozása, törlése, módosítása
- * Kvízek létrehozása, törlése, módosítása
- * Diákok adatait módosíthatja
+
+
+
+
+
+
+
 
 ## Fizikai környezet
 
-*Az alkalmazás web platformra készül.
-*Van tűzfal a hálózaton és minden portot is engedélyez.
-*Nincsenek megvásárolt komponenseink.
-*Fejlesztői eszközök:
-    *Visual Studio Code
-    *Notepad++
-    *MySQL Workbench
-    *Laravel Framework
+
+
+
+
+
+
+
 
 ## Absztrakt domain modell
 
-Fogalomszótár:    
 
-Backend
-A kiszolgáló, ahonnan az alkalmazást el lehet érni.
 
-Frontend
-Egy réteg ami feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
 
-Web-service
-Különböző programnyelveken írt és különböző platformokon futó szoftveralkalmazások interneten keresztül történő adatcseréjére használt vebszolgáltatások.
 
-Multiplatform
-Több környezetben futtatható alkalmazás.
 
-Bug
-Fejlesztési hiba ami által a program nem a várt eredményt hozza.
 
-Felület
-Olyan környezet, ahol megjelenik a leprogramozott, és stílusolt oldal.
 
-Main menu
-A fő menü, amely a weboldal/program indulásakor megjelenik.
 
-Felhasználó
-Olyan személy aki használja a programot, szerepkörökbe osztjuk őket.
-
-Szerepkör
-A programot használó különböző résztvevők, amelyek lehetnek Diákok, Tanárok, Szülők, Adminok, stb.
-
-Jogosultsági szintek
-A különböző szerepkörök, különböző jogosultságokkal rendelkeznek, így nem mindenki fér hozzá mindenhez.
-
-Bejelentkezés
-A felhasználók itt tudnak belépni a rendszerbe, egy felhasználónév és egy jelszó segítségével.
-
-Felhasználónév
-A felhasználó választott neve, ami szükséges a rendszerbe való belépéshez.
-
-Jelszó
-Betűkből, számokból, szimbólumokból álló, a felhasználó átlat választott titkosított szöveg.
-
-Tananyag
-Az alkalmazásba feltöltött oktatásra szánt ismeretkör összessége amit a tanár ad meg.
-
-kvíz
-Egy kitöltendő feladatsor amit a tanár tesz fel és a diákoknak kell kitölteni, a diákok pontszámokat kapnak és láthatnak egy toplistát.
-
-Teszt
-Egy kitöltendő feladatsor, a kvízzel hasonló, de érdemjegyet is kapnak a diákok a kitöltésükért.
-
-Gameboard
-A kvíz / Teszt közben, a különböző elemeket tartalmazó felület.
-
-Toplista
-A játék végén megjelenő panel, amely a statisztikát mutatja.
-
-Admin felület
-Olyan speciális felület, ahol az admin szerepkörben, vagy admin jogosultsággal való felhasználók modósíthatják magát a program egyes részeit.
-	
 ## Architekturális terv
 
 
@@ -301,7 +244,7 @@ Olyan speciális felület, ahol az admin szerepkörben, vagy admin jogosultságg
 
 ## Adatbázis terv
 
-![alt text](https://github.com/gitjuzer/EGER_2019_2_Lev_A/blob/develop/images/datamodel_rendszerterv.png "Data model")	
+
 
 
 
@@ -311,28 +254,12 @@ Olyan speciális felület, ahol az admin szerepkörben, vagy admin jogosultságg
 
 ## Implementációs terv
 
-Backend
-Backend részen a kiszolgáló egy php-ban készült REST szolgáltatás lesz.
-Ez csatlakozik egy php myadminos szerver oldali adatbázishoz, ahonnan eljárások segítségével képes lesz adatokat lekérni, és felvinni, valamint képes továbbküldeni, és fogadni a kliens/kliensek által szolgáltatott adatokat.
 
-Metódusai:
 
-Regisztráció
-* Login
-* Logout
-* Jelszóváltoztatás
-* Lekérdezés feladatonként (kérdés és hozzátartozó válaszok)
-* Lekérdezés feladattípusokként
-* Játékosok Toplistájának lekérdezése
-* Saját eredmény lekérdezése
-* Aktuális válasz ellenőrzése/felvitele adatbázisba
-* Pontszám számítása/felvitele adatbázisba
-* Feladatok feltöltése (csak adminnak)
-* Minden user lekérdezése (csak adminnak)
 
-Web
-A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
-Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében. Képes lesz felhasználni a Backend részen futó REST szolgáltatás metódusait, ezáltal tud felvinni és lekérdezni adatokat az adatbázisból. Az eltelt időt a kliens fogja számolni a feladatoknál, hogy ne legyenek eltérések.
+
+
+
 
 
 ## Tesztterv

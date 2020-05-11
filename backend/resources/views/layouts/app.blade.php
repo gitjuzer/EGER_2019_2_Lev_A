@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,14 @@
     <title>Feladat választós teszt</title>
 </head>
 <body>
+
+    @if (Route::has('login'))
+      <div class="top-right links">
+        @if(Auth::user())
+      </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Játékos tanulás</a>
+        <a class="navbar-brand" href="{{ url('/') }}">Játékos tanulás</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +39,7 @@
               <a class="nav-link" href="#">Feature 2</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Feature 3</a>
+                <a class="nav-link" href="{{ url('/logout') }}">Logout</a>
             </li>
 
           </ul>
@@ -41,5 +47,25 @@
       </nav>
 
     @yield('content')
+
+
+    @else
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ url('/') }}">Játékos tanulás</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('login') }}">Jelentkezz be</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    @endif
+    @endif
+
+    
 </body>
 </html>
