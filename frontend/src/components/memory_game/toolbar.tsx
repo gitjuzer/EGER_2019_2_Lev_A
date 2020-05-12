@@ -19,8 +19,11 @@ const useStyles = makeStyles({
     }
 });
 
+export interface IToolbarProps {
+    onClick: (selectedMode: string, selectedFilter: string) => void;
+}
 
-const MemoryToolbar = () => {
+const MemoryToolbar = (props: IToolbarProps) => {
     const classes = useStyles();
     const [gameMode, setGameMode] = React.useState('');
     const [gameLevel, setGameLevel] = React.useState('');
@@ -34,7 +37,7 @@ const MemoryToolbar = () => {
     };
 
     const handleClick = () => {
-        console.log(gameMode, gameLevel);
+        props.onClick(gameMode, gameLevel);
     };
 
     return <div className={classes.root}>
@@ -60,9 +63,9 @@ const MemoryToolbar = () => {
                     value={gameLevel}
                     onChange={handleLevelChange}
                 >
-                    <MenuItem value={5}>Könnyű</MenuItem>
-                    <MenuItem value={7}>Közepes</MenuItem>
-                    <MenuItem value={9}>Nehéz</MenuItem>
+                    <MenuItem value={'12'}>Könnyű</MenuItem>
+                    <MenuItem value={'20'}>Közepes</MenuItem>
+                    <MenuItem value={'30'}>Nehéz</MenuItem>
                 </Select>
             </FormControl>
         </div>
