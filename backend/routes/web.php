@@ -28,3 +28,9 @@ Route::resource('ListAnswers', 'ListAnswersController');
 Route::get( '/auth0/callback', '\Auth0\Login\Auth0Controller@callback' )->name( 'auth0-callback' );
 Route::get( '/login', 'Auth\Auth0IndexController@login' )->name( 'login' );
 Route::get( '/logout', 'Auth\Auth0IndexController@logout' )->name( 'logout' )->middleware('auth');
+
+Route::get('memorygame', 'MemoryGameController@index');
+Route::get('memorygame/{id}', 'MemoryGameController@show');
+Route::post('memorygame', 'MemoryGameController@store');
+Route::put('memorygame/{id}', 'MemoryGameController@update');
+Route::delete('memorygame/{id}', 'MemoryGameController@delete');
