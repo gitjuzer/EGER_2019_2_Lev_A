@@ -1,0 +1,141 @@
+---
+swagger: "2.0"
+info:
+  description: This is a memory game API for testing
+  version: 1.0.0
+  title: Memory Game API
+  contact:
+    email: gagyinorbert@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+host: virtserver.swaggerhub.com
+basePath: /trebron22/memorygame/1.0.0
+tags:
+- name: developers
+  description: Operations available to regular developers
+schemes:
+- https
+paths:
+  /memorygame:
+    get:
+      tags:
+      - developers
+      summary: searches inventory
+      description: |
+        By passing in the appropriate options, you can search for
+        available inventory in the system
+      operationId: searchInventory
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        "200":
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/MemoriGameImageA'
+        "400":
+          description: bad input parameter
+    post:
+      tags:
+      - developers
+      summary: adds an inventory item
+      description: Adds an item to the system
+      operationId: addInventory
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      parameters:
+      - in: body
+        name: MemoriGameImageA
+        description: Inventory item to add
+        required: false
+        schema:
+          $ref: '#/definitions/MemoriGameImageA'
+      responses:
+        "201":
+          description: item created
+        "400":
+          description: invalid input, object invalid
+        "409":
+          description: an existing item already exists
+  /memorygame/{id}:
+    get:
+      tags:
+      - developers
+      summary: searches inventory
+      description: |
+        By passing in the appropriate options, you can search for
+        available inventory in the system
+      produces:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/MemoriGameImageA'
+        "400":
+          description: bad input parameter
+    delete:
+      tags:
+      - developers
+      summary: searches inventory
+      description: |
+        By passing in the appropriate options, you can search for
+        available inventory in the system
+      produces:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        description: id
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: delete MemoriGameImageA
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/MemoriGameImageA'
+        "400":
+          description: bad input parameter
+definitions:
+  MemoriGameImageA:
+    type: object
+    required:
+    - id
+    - image
+    properties:
+      id:
+        type: string
+        format: uuid
+        example: d290f1ee-6c54-4b01-90e6-d701748f0851
+      image:
+        type: string
+        example: /path/test.jpg
+      MemoriGameImageB:
+        $ref: '#/definitions/MemoriGameImageB'
+  MemoriGameImageB:
+    required:
+    - image
+    - memori_game_image_a_s_id
+    properties:
+      image:
+        type: string
+        format: url
+        example: /path/test.jpg
+      memori_game_image_a_s_id:
+        type: integer
+        example: 1
